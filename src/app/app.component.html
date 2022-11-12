@@ -10,10 +10,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="public">Estudiante</a>
+          <a class="nav-link" routerLink="public">Mascotas</a>
         </li>
         <li class="nav-item" routerLinkActive="active" *ngIf="auth.isAuthenticated$ | async"  >
-          <a class="nav-link" routerLink="private">Maestro</a>
+          <a class="nav-link" routerLink="private">Info</a>
         </li>
       </ul>
     </div>
